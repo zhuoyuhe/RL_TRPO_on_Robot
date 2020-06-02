@@ -11,6 +11,7 @@ class Ant():
         :param env: environment
         :param horizon: time steps per batch
         """
+
         self.env = env
         self.horizon = horizon
         self.epsi = epsi
